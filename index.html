@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <title>Рахматов</title>
+  </head>
+  <body>
+    <!-- Начало меню -->
+    <header class="header">
+      <a href="#" class="logo"><span>РАХМАТОВ</span></a>
+
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+
+      <nav class="navbar">
+        <a href="#about-us">КОМПЕТЕНЦИИ</a>
+        <a href="#about-projects" class="active">ПОРТФОЛИО</a>
+        <a href="#about-services">УСЛУГИ</a>
+        <a href="#myButton">ПРОЕКТЫ</a>
+      </nav>
+
+      <a href="#contacts" class="contact">Мои Контакты</a>
+    </header>
+    <!-- Конец меню -->
+
+    <!-- Начало шапки -->
+    <section class="home">
+      <div class="home-content">
+        <h3>Привет</h3>
+
+        <h1>
+          Я<span> Бахтовар<br /></span>- фронтенд разработчик и дизайнер сайтов
+        </h1>
+
+        <p>
+          Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
+          повышают престиж компании и позволяют выделиться на фоне конкурентов
+        </p>
+
+        <div class="btn-box">
+          <button class="btn-1">Связаться со мной</button>
+          <button id="myButton2" class="btn-2">Мой GitHub</button>
+        </div>
+      </div>
+      <div class="img-box">
+        <img src="./я1.jpg" alt="" />
+      </div>
+    </section>
+    <!-- Конец шапки -->
+
+    <!-- Начало обо мне -->
+    <section class="about">
+      <div class="about-img">
+        <img src="./я.jpg" alt="" />
+      </div>
+
+      <div id="about-us" class="about-content">
+        <h2 class="heading">O <span>себе</span></h2>
+        <h3>Фронтенд <span>Разработчик</span></h3>
+        <p>
+          Создаю функциональные и привлекательные сайты для бизнеса, которые
+          помогают решать задачи, повышают узнаваемость и обеспечивают
+          конкурентное преимущество
+        </p>
+        <a href="#about-projects" class="btn-2">Мой опыт</a>
+      </div>
+    </section>
+
+    <section class="about-us">
+      <h1>Мои <span>Компетенции</span></h1>
+      <div class="text-block">
+        <img src="./html.png" alt="" />
+        <p class="competencies-list">HTML и CSS</p>
+        <p class="about-text">
+          это основа фронтенд разработки. Умение создавать и правильно
+          структурировать HTML-документы, а также применять стили к этим
+          документам на CSS, является обязательным навыком для каждого фронтенд
+          разработчика.
+        </p>
+      </div>
+
+      <div class="text-block">
+        <img src="./js.png" alt="" />
+        <p class="competencies-list">JavaScript</p>
+        <p class="about-text">
+          это язык программирования, который используется для создания
+          динамического и интерактивного пользовательского интерфейса. Хороший
+          фронтенд разработчик должен быть знаком с основами JavaScript, включая
+          работу с DOM-деревом, асинхронными запросами и манипуляцией данными на
+          стороне клиента.
+        </p>
+      </div>
+
+      <div class="text-block">
+        <img src="./work.png" alt="" />
+        <p class="competencies-list">Работа с библиотеками и фреймворками</p>
+        <p class="about-text">
+          фронтенд разработчики должны быть знакомы с различными библиотеками и
+          фреймворками, такими как React, Angular, Vue и другими. Умение
+          использовать готовые решения, адаптировать их под нужды проекта и
+          расширять их функциональность, является очень важным навыком.
+        </p>
+      </div>
+
+      <div class="text-block">
+        <img src="./about.png" alt="" />
+        <p class="competencies-list">
+          Разработка для мобильных устройств и адаптивная верстка
+        </p>
+        <p class="about-text">
+          фронтенд разработчики должны быть знакомы с различными библиотеками и
+          фреймворками, такими как React, Angular, Vue и другими. Умение
+          использовать готовые решения, адаптировать их под нужды проекта и
+          расширять их функциональность, является очень важным навыком.
+        </p>
+      </div>
+    </section>
+    <!-- Конец обо мне -->
+
+    <!-- Начало портфолио -->
+    <div class="portfolio">
+      <h1 id="about-projects">Самые <span>свежие проекты</span></h1>
+
+      <div class="image first-img">
+        <p>
+          <span>дизайн, верстка и настройка сайта</span>
+        </p>
+      </div>
+      <div class="image second-img">
+        <p>
+          <span>разработка интерфейса</span>
+        </p>
+      </div>
+      <div class="image third-img">
+        <p>
+          <span>интерфейс для веб-приложения</span>
+        </p>
+      </div>
+      <div class="image fouth-img">
+        <p>
+          <span>веб-интерфейс с функциями</span>
+        </p>
+      </div>
+      <button id="myButton">Посмотреть проекты на GitHub</button>
+    </div>
+    <!-- Конец портфолио -->
+
+    <!-- Начало мои услуги -->
+    <section class="services">
+      <h1 id="about-services">
+        Помогаю реализовать <span>широкий спектр задач</span>
+      </h1>
+      <img class="block-img" src="./img.png" alt="" />
+      <div class="block-block">
+        <h3>Разработка сайта под ключ</h3>
+        <p class="block-text">
+          Создание удобных и понятных веб-сайтов, соответствующих бизнес-задачам
+          клиентов
+        </p>
+      </div>
+
+      <img class="block-img" src="./img1.png" alt="" />
+      <div class="block-block">
+        <h3>Верстка сайтов</h3>
+        <p class="block-text">
+          Создание HTML-документов с применением CSS, чтобы ваши сайты выглядели
+          привлекательно и были удобными
+        </p>
+      </div>
+
+      <img class="block-img" src="./img2.png" alt="" />
+      <div class="block-block">
+        <h3>Разработка мобильного интерфейса</h3>
+        <p class="block-text">
+          Создание интерактивных элементов с использованием JavaScript для
+          удобного пользовательского опыта
+        </p>
+      </div>
+
+      <div class="block-block">
+        <h3>Адаптивный дизайн</h3>
+        <p class="block-text">
+          Обеспечиваю, чтобы ваши сайты отлично работали на всех устройствах с
+          помощью современных технологий.
+        </p>
+      </div>
+
+      <div class="block-block">
+        <h3>Оптимизация производительности</h3>
+        <p class="block-text">
+          Обеспечиваю быструю загрузку страниц и оптимальную производительность
+          для улучшения пользовательского опыта.
+        </p>
+      </div>
+    </section>
+    <!-- Конец мои услуги -->
+
+    <!-- Начало секции отзывов -->
+    <section class="reviews">
+      <h1>Отзывы <span>Клиентов</span></h1>
+      <div></div>
+    </section>
+    <!-- Конец секции отзывов -->
+
+    <!-- Начало мои контакты -->
+    <section id="contacts" class="contact-form">
+      <h2 class="contact-me">Мои <span>Контакты</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" id="fullName" placeholder="Полное имя" />
+          <input type="email" id="email" placeholder="Электронная почта" />
+        </div>
+
+        <div class="input-box">
+          <input type="tel" id="phone" placeholder="Номер телефона" />
+          <input type="text" id="subject" placeholder="Тема" />
+        </div>
+
+        <textarea
+          name=""
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn-1" />
+      </form>
+    </section>
+    <!-- Конец мои контакты -->
+
+    <!-- Начало подвала -->
+    <footer class="footer">
+      <div class="social">
+        <a href="https://instagram.com/bakhtovar_daleri"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://t.me/zakazcargroup"><i class="bx bxl-telegram"></i></a>
+        <a href="mailto:example@example.com"><i class="bx bx-envelope"></i></a>
+        <a href="https://wa.me/+79650922976"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://github.com/BakhtovarDaleri"
+          ><i class="bx bxl-github"></i
+        ></a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+        <li>
+          <a href="#about-services">Services</a>
+        </li>
+        <li>
+          <a href="#about-us">About Me</a>
+        </li>
+        <li>
+          <a href="#contacts">Contacts</a>
+        </li>
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+      </ul>
+
+      <p class="copyright">@ 2024 Bakhtovar |</p>
+    </footer>
+    <!-- Конец подвала -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
