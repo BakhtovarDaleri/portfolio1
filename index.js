@@ -6,6 +6,14 @@ document.addEventListener("DOMContentLoaded", function () {
     window.open("https://github.com/BakhtovarDaleri", "_blank"); // Открываем в новой вкладке
   });
 });
+// Находим кнопки по ID и перенаправляем на страницу GitLab
+document.addEventListener("DOMContentLoaded", function () {
+  const myButton = this.getElementById("myButton3");
+
+  myButton.addEventListener("click", function () {
+    window.open("https://gitlab.skillbox.ru/bakhtovar_rakhmatov", "_blank"); // Открываем в новой вкладке
+  });
+});
 
 // Находим элемент по классу
 const myButton1 = document.querySelector(".btn-1");
@@ -57,6 +65,11 @@ document.addEventListener("DOMContentLoaded", function () {
     form.requestFullscreen();
   });
 });
+
+function toggleMenu() {
+  const navbar = document.querySelector(".navbar");
+  navbar.classList.toggle("active");
+}
 
 function toggleMenu() {
   const navbar = document.querySelector(".navbar");
