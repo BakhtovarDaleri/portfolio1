@@ -96,10 +96,9 @@ span {
   .contact {
     font-size: 14px;
     padding: 8px 16px;
-    display: block;
   }
 
-  .nav-link {
+  nav {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -110,7 +109,7 @@ span {
     padding: 20px;
     text-align: center;
   }
-  .nav-link a {
+  .nav-link {
     display: block;
     margin: 10px 0;
   }
@@ -119,11 +118,12 @@ span {
     margin-left: auto;
     margin-right: 20px;
   }
-  .nav-link.active {
+  nav.active {
     display: flex;
   }
   .contact {
-    display: none;
+    display: block;
+    margin-top: 10px;
   }
 
   .nav-link.active + .contact {

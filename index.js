@@ -67,11 +67,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function toggleMenu() {
-  const navbar = document.querySelector(".navbar");
-  navbar.classList.toggle("active");
-}
-
-function toggleMenu() {
-  const navbar = document.querySelector(".navbar");
+  const navbar = document.querySelector("nav");
   navbar.classList.toggle("active");
 }
