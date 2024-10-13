@@ -70,3 +70,14 @@ function toggleMenu() {
   const navbar = document.querySelector("nav");
   navbar.classList.toggle("active");
 }
+
+// Скрыть  меню при клике вне его
+document.addEventListener("click", function (event) {
+  const navbar = document.querySelector("nav");
+  const hamburger = document.querySelector(".hamburger");
+
+  // Проверяем, если клик был вне меню и кнопки гамбургера
+  if (!navbar.contains(event.target) && !hamburger.contains(event.target)) {
+    navbar.classList.remove("active");
+  }
+});
