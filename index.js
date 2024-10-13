@@ -81,3 +81,8 @@ document.addEventListener("click", function (event) {
     navbar.classList.remove("active");
   }
 });
+
+// Дополнительная проверка на клик внутри меню
+navbar.addEventListener("click", function (event) {
+  event.stopPropagation();
+});

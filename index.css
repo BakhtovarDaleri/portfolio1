@@ -60,6 +60,11 @@ span {
   color: orangered;
   border-bottom: 3px solid orangered;
 }
+
+nav.active {
+  display: flex;
+  flex-direction: column;
+}
 .contact {
   margin-left: 35px;
   padding: 10px 20px;
