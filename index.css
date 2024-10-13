@@ -47,20 +47,21 @@ html {
 span {
   color: orangered;
 }
-.navbar a {
-  font-size: 18px;
+.nav-link {
+  font-size: 16px;
   color: white;
   font-weight: 500;
   margin: 0 12px;
   border-bottom: 3px solid transparent;
   transition: 0.3s ease;
 }
-.navbar a:hover,
-.navbar a:active {
+.nav-link:hover,
+.nav-link:active {
   color: orangered;
   border-bottom: 3px solid orangered;
 }
 .contact {
+  margin-left: 35px;
   padding: 10px 20px;
   background-color: white;
   color: black;
@@ -95,9 +96,10 @@ span {
   .contact {
     font-size: 14px;
     padding: 8px 16px;
+    display: block;
   }
 
-  .navbar {
+  .nav-link {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -108,7 +110,7 @@ span {
     padding: 20px;
     text-align: center;
   }
-  .navbar a {
+  .nav-link a {
     display: block;
     margin: 10px 0;
   }
@@ -117,8 +119,16 @@ span {
     margin-left: auto;
     margin-right: 20px;
   }
-  .navbar.active {
+  .nav-link.active {
     display: flex;
+  }
+  .contact {
+    display: none;
+  }
+
+  .nav-link.active + .contact {
+    display: block;
+    margin-top: 10px;
   }
 }
 /* Конец меню */
