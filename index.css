@@ -427,7 +427,6 @@ nav.active {
   }
   .image {
     height: 250px;
-    box-shadow: 0 0 10px orangered;
     border-radius: 20px;
     background-size: contain;
     background-position: center;
