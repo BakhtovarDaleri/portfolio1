@@ -371,7 +371,7 @@ nav.active {
 }
 .zero-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) 90%),
-    url(./project1.png);
+    url(./11.png);
 }
 .first-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) 90%),
@@ -379,7 +379,7 @@ nav.active {
 }
 .second-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) 90%),
-    url(./cafe.png);
+    url(./project1.png);
 }
 .third-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) 90%),
@@ -387,7 +387,7 @@ nav.active {
 }
 .fouth-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9) 90%),
-    url(./js-counter.png);
+    url(./22.png);
 }
 .portfolio p {
   font-size: 30px;
